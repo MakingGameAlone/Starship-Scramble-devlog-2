@@ -18,6 +18,7 @@ function Card(props) {
         <div className='cards__info'>
           <h5 className='cards__text'>{props.text}</h5>
           <p>{props.description}</p>
+          <div className='cards__read'>Read more</div>
         </div>
         
       </Link>
