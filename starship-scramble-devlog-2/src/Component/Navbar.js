@@ -28,7 +28,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/Starship-Scramble-devlog' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/Starship-Scramble-devlog-2' className='navbar-logo' onClick={closeMobileMenu}>
             Starship Scramble
             <i class='fab fa-typo3'></i>
           </Link>
@@ -39,7 +39,7 @@ function Navbar() {
 
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/Starship-Scramble-devlog' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/Starship-Scramble-devlog-2' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
