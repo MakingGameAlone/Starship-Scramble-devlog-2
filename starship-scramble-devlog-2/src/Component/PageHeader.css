@@ -1,0 +1,95 @@
+.pageHeader-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+    z-index: -2;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+.pageHeader-container .background-wrapper{
+    width: 100%;
+    position: absolute;
+    top: -30%;
+    z-index: 0;
+    overflow: hidden;
+}
+.pageHeader-container .backImage{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+
+      /* Add the blur effect */
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+  transform: scale(1.2);
+  
+}
+.pageHeader-container .frontImage{
+    align-self: center;
+    margin-top: 100px;
+    width: 70%;
+    height: auto;
+    z-index: 1;
+}
+
+.pageHeader-container h1{
+    margin-top: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.pageHeader-container p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+    font-style: italic;
+    color: rgba(0,0,0,0.6);
+    margin-bottom: 50px;
+}
+
+.pageHeader-container hr{
+    background-color: #49d9d3;
+    height: 1px;
+    border: none;
+}
+
+@media screen and (max-width: 960px) {
+    .pageHeader-container .background-wrapper{
+        top: -20%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .pageHeader-container .background-wrapper{
+        top: -10%;
+    }
+
+    .pageHeader-container h1{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .pageHeader-container p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .pageHeader-container .frontImage{
+        width: 80%;
+    }
+    .pageHeader-container .background-wrapper{
+        top: -5%;
+    }
+
+    .pageHeader-container h1{
+        margin-top: 30px;
+        font-size: 25px;
+    }
+    .pageHeader-container p{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+}

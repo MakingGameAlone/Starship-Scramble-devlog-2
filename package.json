@@ -1,0 +1,22 @@
+{
+  "name": "starship-scramble-devlog-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakingGameAlone/Starship-Scramble-devlog-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MakingGameAlone/Starship-Scramble-devlog-2/issues"
+  },
+  "homepage": "https://github.com/MakingGameAlone/Starship-Scramble-devlog-2#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.1"
+  }
+}

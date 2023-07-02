@@ -1,0 +1,37 @@
+.paragraph-container{
+    background-color: aliceblue;
+    padding: 3% 20%;
+}
+
+.paragraph-container h4{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.paragraph-container p{
+    font-size: 18px;
+    margin-top: 15px;
+    word-spacing: 1px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, .65);
+}
+.paragraph-container img{
+    position: relative;
+    margin-top: 20px;
+    align-self: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+    border: 1px solid #49d3d9;
+    border-radius: 4px;
+    padding: 5px;
+}
+.paragraph-container .divider{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.paragraph-container h5{
+    margin-top:  10px;
+    color: #1F2833  ;
+    text-transform: capitalize;
+}
