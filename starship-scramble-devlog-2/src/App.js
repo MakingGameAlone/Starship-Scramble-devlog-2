@@ -11,7 +11,7 @@ function App() {
     <Router>
     <Navbar />
     <Routes>
-      <Route path="/Starship-Scramble-devlog" element={<Home />} />
+      <Route path="/Starship-Scramble-devlog-2" element={<Home />} />
       <Route path="/feature" element={<Feature />} />
     </Routes>
     </Router>
