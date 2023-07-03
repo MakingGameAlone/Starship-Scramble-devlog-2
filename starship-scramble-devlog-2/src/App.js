@@ -3,6 +3,7 @@ import Navbar from './Component/Navbar';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Home from './Page/Home';
 import Feature from './Page/Feature';
+import Study from './Page/Study';
 import { useEffect } from 'react';
 
 
@@ -28,6 +29,7 @@ function Inner()
    <Routes>
     <Route path="/Starship-Scramble-devlog-2" element={<Home />} />
     <Route path="/Starship-Scramble-devlog-2/feature" element={<Feature />} />
+    <Route path="/Starship-Scramble-devlog-2/Study&Research" element={<Study />} />
   </Routes>)
 }
 export default App;

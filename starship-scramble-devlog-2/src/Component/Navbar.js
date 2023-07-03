@@ -28,9 +28,10 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
+
           <Link to='/Starship-Scramble-devlog-2' className='navbar-logo' onClick={closeMobileMenu}>
+          <img src={process.env.PUBLIC_URL +'/images/StarshipScramble_Logo.png'} alt="Starship Scramble Logo" />
             Starship Scramble
-            <i class='fab fa-typo3'></i>
           </Link>
 
           <div className='menu-icon' onClick={handleClick}>
@@ -57,11 +58,11 @@ function Navbar() {
 
             <li className='nav-item'>
               <Link
-                to='/news'
+                to='/Starship-Scramble-devlog-2/Study&Research'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                News
+                Study & Research
               </Link>
             </li>
           </ul>

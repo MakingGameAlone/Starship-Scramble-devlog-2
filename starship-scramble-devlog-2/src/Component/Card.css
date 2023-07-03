@@ -40,6 +40,7 @@
     text-transform: uppercase;
     font-weight: 700;
     color: #49d3d9;
+    font-family: 'Belanosima', sans-serif;
 }
 
 .cards__link div p{
@@ -52,7 +53,7 @@
 .cards__link .cards__read{
     position: absolute;
     font-size: 14px;
-
+    font-weight: 200;
     bottom: 15px;
     right: 15px;
     color: #49d9d23e;

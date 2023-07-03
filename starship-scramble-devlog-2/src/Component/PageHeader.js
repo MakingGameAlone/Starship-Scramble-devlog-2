@@ -8,10 +8,11 @@ function PageHeader(props) {
             <img className = 'backImage' src={props.src} alt="header background" />
             <div className='backBlurCutter'></div>
         </div>
+
         <img className= 'frontImage' src={props.src} alt="header front" />
 
-        <h1>Features Overview</h1>
-        <p>A peek at mechanic currently in Starship Scramble!</p>
+        <h1>{props.title}</h1>
+        <p>{props.subtitle}</p>
         <hr />
     </div>
   )

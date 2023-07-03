@@ -8,6 +8,8 @@ function Feature() {
     <>
         <PageHeader 
             src={process.env.PUBLIC_URL +'/images/MarchDrawing.png'}
+            title = {"Features Overview"}
+            subtitle = {"A peek at mechanic currently in Starship Scramble!"}
         />
         <Paragraph />
         <Footer />
