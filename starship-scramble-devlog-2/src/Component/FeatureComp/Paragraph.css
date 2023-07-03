@@ -35,3 +35,19 @@
     color: #1F2833  ;
     text-transform: capitalize;
 }
+
+@media screen and (max-width: 1360px) {
+    .paragraph-container{
+        padding: 3% 15%;
+    }
+}
+@media screen and (max-width: 960px) {
+    .paragraph-container{
+        padding: 3% 12.5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .paragraph-container{
+        padding: 3% 10%;
+    }
+}

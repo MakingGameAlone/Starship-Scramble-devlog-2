@@ -95,22 +95,44 @@ function Paragraph() {
             <img src={process.env.PUBLIC_URL +'/GameDemo/Feature_12.png'} alt="energy weapons" />
 
             <p>Phew! That is a lot, but it is merely a portion modules and weapons that is currently in the game.</p>
+            
+            
             <div className='divider'></div>
             <h4>Crews</h4>
-            <p> </p>
-
+            <p> Crews function as the general upgrade of the starship. You can recruit new crew by rescuing them on scattered aesteroids.
+                There are no limit on how many you can rescue each wave therefore, optimize as you wish.
+                There are rankings for all of them, the stronger the rare you are likely to find.
+            </p>
+            <p>Since "Crews rescue" can be intimidating, crew individually is fairly weak, thus not stressing players to rush for crew.</p>
+            <img src={process.env.PUBLIC_URL +'/GameDemo/Feature_13.png'} alt="crew selection" />
+           
             <div className='divider'></div>
 
             <h4>Tune-Up</h4>
-            <p></p>
+            <p>A system of enhancing performance of weapons, tune-up items provide stats that can be combine to advanced items for great advantage.
+
+            </p>
+            <p>Currently, it is still under the concept phrase and I would like to present what I got on sketch.</p>
+
+            <img src={process.env.PUBLIC_URL +'/GameDemo/Feature_14.jpg'} alt="tune-up sketch" />
 
             <div className='divider'></div>
 
             <h4>Collection & Progression</h4>
-            <p></p>
+            <p>You may have seen various orefields scattered on the map. They are resource that you can collect.
+                You will return to base where you can put those resource to good use. Construct new buildings or unlock new modules or some permanent upgrades!
+            </p>
+            <p>
+                You will drop your crews at base, that's why you rescue the in the first place right?!
+                And Building are the means to support the incoming crews. However, this is only a minor feature that provides a sense of community, home and progression.
+                Therefore, this feature is totally optional and stress-free.
+                I personally have grinding for resource, I would consider to minize the amount of run players have to finish all upgrades.
+            </p>
+            <img src={process.env.PUBLIC_URL +'/GameDemo/Feature_15.png'} alt="base attribute" />
+            <img src={process.env.PUBLIC_URL +'/GameDemo/Feature_16.png'} alt="construct building" />
 
+            <p>There's still a ton to uncover in Starship Scramble, but you need to wander a little yourself. See you outer space!!!</p>
             <div className='divider'></div>
-
         </div>
     )
 }

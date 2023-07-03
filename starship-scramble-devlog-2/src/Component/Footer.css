@@ -46,3 +46,28 @@
 .WishlistButton:hover{
     background-color: #40b2b8;
 }
+
+@media screen and (max-width: 850px) {
+    .footer-container{
+
+    
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .footer-container{
+
+    
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .footer-container{
+
+    
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
