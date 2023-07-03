@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Starship-Scramble-devlog-2/static/css/main.019b8210.css",
-    "main.js": "/Starship-Scramble-devlog-2/static/js/main.ad4e1bd5.js",
+    "main.css": "/Starship-Scramble-devlog-2/static/css/main.938b9644.css",
+    "main.js": "/Starship-Scramble-devlog-2/static/js/main.44a065b7.js",
     "static/js/787.e873beaa.chunk.js": "/Starship-Scramble-devlog-2/static/js/787.e873beaa.chunk.js",
     "index.html": "/Starship-Scramble-devlog-2/index.html",
-    "main.019b8210.css.map": "/Starship-Scramble-devlog-2/static/css/main.019b8210.css.map",
-    "main.ad4e1bd5.js.map": "/Starship-Scramble-devlog-2/static/js/main.ad4e1bd5.js.map",
+    "main.938b9644.css.map": "/Starship-Scramble-devlog-2/static/css/main.938b9644.css.map",
+    "main.44a065b7.js.map": "/Starship-Scramble-devlog-2/static/js/main.44a065b7.js.map",
     "787.e873beaa.chunk.js.map": "/Starship-Scramble-devlog-2/static/js/787.e873beaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.019b8210.css",
-    "static/js/main.ad4e1bd5.js"
+    "static/css/main.938b9644.css",
+    "static/js/main.44a065b7.js"
   ]
 }
