@@ -1,0 +1,33 @@
+.studyparagraph-container{
+    background-color: aliceblue;
+    padding: 3% 20%;
+}
+
+.studyparagraph-container h4{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.studyparagraph-container p{
+    font-size: 18px;
+    margin-top: 15px;
+    word-spacing: 1px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 1);
+}
+.studyparagraph-container img{
+    position: relative;
+    margin-top: 20px;
+    align-self: center;
+    width: 100%;
+    height: auto;
+    border: 1px solid #49d3d9;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.studyparagraph-container .divider{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
