@@ -27,7 +27,7 @@ function Inner()
   return (       
    <Routes>
     <Route path="/Starship-Scramble-devlog-2" element={<Home />} />
-    <Route path="/feature" element={<Feature />} />
+    <Route path="/Starship-Scramble-devlog-2/feature" element={<Feature />} />
   </Routes>)
 }
 export default App;

@@ -47,7 +47,7 @@ function Navbar() {
 
             <li className='nav-item'>
               <Link
-                to='/feature'
+                to='/Starship-Scramble-devlog-2/feature'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >

@@ -10,7 +10,7 @@ function Features() {
               src = {process.env.PUBLIC_URL +'/images/GameUIIcon/GameUIIcon_website_BuildMode2.png'}
               text='Ship Building'
               label='Adventure'
-              path='/feature'
+              path='/Starship-Scramble-devlog-2/feature'
               description ='Combine multiple modules, weapons and other upgrades to build an invincible ship.'
             />
 
@@ -18,7 +18,7 @@ function Features() {
               src={process.env.PUBLIC_URL +'/images/GameUIIcon/GameUIIcon_website_Crew2.png'}
               text='Crews'
               label='Adventure'
-              path='/feature'
+              path='/Starship-Scramble-devlog-2/feature'
               description ='Rescue people and recruit them as crews, increase ship power.'
             />
 
@@ -26,7 +26,7 @@ function Features() {
               src={process.env.PUBLIC_URL +'/images/GameUIIcon/GameUIIcon_website_Collection2.png'}
               text='Collection & Progression'
               label='Adventure'
-              path='/feature'
+              path='/Starship-Scramble-devlog-2/feature'
               description ='Collect resource and unlock new modules and buildings as game progressed.'
             />
         </div>
@@ -35,7 +35,7 @@ function Features() {
               src={process.env.PUBLIC_URL +'/images/GameUIIcon/GameUIIcon_website_Module2.png'}
               text='Modules & Weapons'
               label='Adventure'
-              path='/feature'
+              path='/Starship-Scramble-devlog-2/feature'
               description ='Connectors, power generators, thrusters, barrier, shield generators and more!!!'
             />
 
@@ -43,7 +43,7 @@ function Features() {
               src={process.env.PUBLIC_URL +'/images/GameUIIcon/GameUIIcon_website_TuneUp2.png'}
               text='Tune-ups'
               label='Adventure'
-              path='/feature'
+              path='/Starship-Scramble-devlog-2/feature'
               description ='Combine basic tune-ups to form Advanced items and improve Weapon modules further.'
             />
         </div>
