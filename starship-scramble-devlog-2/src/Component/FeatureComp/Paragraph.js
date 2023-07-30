@@ -109,14 +109,49 @@ function Paragraph() {
             <div className='divider'></div>
 
             <h4>Tune-Up</h4>
-            <p>A system of enhancing performance of weapons, tune-up items provide stats that can be combine to advanced items for great advantage.
+            <p>A mechanic with an objective of improving weapons and enriching the customization of the starship.
+                 Basically, a tune-up item provides a specific stat for connected weapon. 
+                 The fun thing is combining two tune ups items result in an advanced tune-up with a special effect.
+                There are 7 basic tune-up items and 28 combined items.
 
             </p>
-            <p>Currently, it is still under the concept phrase and I would like to present what I got on sketch.</p>
+            <p>Special effects can make a major difference in different weapons.
+                 For instance, "Hurricane Cannon" fires an addional projectile that applies on-hit effect of the attached weapon such as explosion,
+                  it also applies the zap effect that is unique to electricity weapon. 
+                
+            </p>
 
-            <img src={process.env.PUBLIC_URL +'/GameDemo/Feature_14.jpg'} alt="tune-up sketch" />
+            <img src={process.env.PUBLIC_URL +'/GameDemo/TuneUp_1.png'} alt="tune-up" />
+            <img src={process.env.PUBLIC_URL +'/GameDemo/TuneUp_2.png'} alt="tune-up sketch" />
+            <img src={process.env.PUBLIC_URL +'/GameDemo/TuneUp_3.png'} alt="tune-up sketch" />
+            <p>Furthermore, I have built the system for drag and drop, combination, apply stats and tooltips.
+                The UX/UI is an extended version of the module build UI, belows are the important criteria I took into consideration during development of this mechanic user interface.
+            </p>
+            <li>Isolate weapons from other modules from view.</li>
+            <li>Players must be able to view what weapons at what position.</li>
+            <li>Each weapon has 3 slots of tune ups and slots' occupancy must be visible.</li>
+            <li>There must be a notification on purchasing new tune-up items.</li>
+            <li>Tooltips must display the combination formulas and players are able to view the potential combination, before committing combination. </li>
+
+            <img src={process.env.PUBLIC_URL +'/GameDemo/TuneUp_4.png'} alt="tune-up sketch" />
+            <p>This mechanic deepens the customization experience for Starship Scramble with various options and thought-provoking consideration but not too complicated.
+                It might appear difficult to memorize all the combinations and way to using them, therefore, I have designed the UI carefully to support players in this system. </p>
 
             <div className='divider'></div>
+
+            <h4>Combat Mode</h4>
+            <p>Combat Mode is a fun way to reward or punish player playstyles. 
+                <br />
+                <br />
+                For example, having too many advanced weapons result in high heat accumulation, this leads to overheat, your firepower is stronger but ship takes way more damage.
+                <br />
+                <br />
+                Or for maybe you are too good! by kill 15 enemies without taking damage, you enter battle fever, enhance your critical power and dodge, but you lose the bonus after taking damage.
+                <br />
+                <br />
+                Lastly, there is stationary mode, you enter this mode by staying still for 5 seconds, Ship will project a psyic shield that reduce incoming damage by inverse heat (simply, lower heat, lower damage taken)
+                This shield even scales with the amount of weapons you are currently having. </p>
+                <br />
 
             <h4>Collection & Progression</h4>
             <p>You may have seen various orefields scattered on the map. They are resource that you can collect.
